@@ -1,0 +1,60 @@
+2025-09-01 17:54:34,680 - __main__ - INFO - __init__:66 - Enhanced CABAS automation initialized
+2025-09-01 17:54:35,104 - __main__ - INFO - launch_cabas:142 - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:54:36,513 - __main__ - INFO - launch_cabas:150 - CABAS process started successfully
+2025-09-01 17:54:36,514 - __main__ - INFO - find_and_setup_cabas_window:164 - Searching for CABAS window...
+2025-09-01 17:54:36,514 - __main__ - INFO - window_found:173 - Found CABAS window: 'CAB Service Platform setup' at 260,260 size 535x301
+2025-09-01 17:54:38,558 - __main__ - WARNING - setup_window:214 - Could not bring window to front: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:38,558 - __main__ - INFO - setup_window:216 - Window setup completed
+2025-09-01 17:54:38,558 - __main__ - INFO - login_to_cabas:533 - Starting CABAS login process
+2025-09-01 17:54:38,664 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_start_attempt_1.png
+2025-09-01 17:54:38,665 - __main__ - INFO - login_to_cabas:551 - Trying login method 1/2
+2025-09-01 17:54:38,665 - __main__ - INFO - login_method_enhanced_detection:412 - Attempting enhanced login detection method
+2025-09-01 17:54:38,666 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:41,754 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 17:54:41,755 - __main__ - ERROR - find_login_fields:404 - Error finding login fields: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:41,755 - __main__ - WARNING - login_method_enhanced_detection:456 - Could not locate login fields
+2025-09-01 17:54:41,756 - __main__ - WARNING - login_to_cabas:565 - Method 1 failed to execute
+2025-09-01 17:54:41,756 - __main__ - INFO - login_to_cabas:551 - Trying login method 2/2
+2025-09-01 17:54:41,756 - __main__ - INFO - login_method_fallback_coordinates:468 - Attempting fallback coordinate-based login
+2025-09-01 17:54:41,756 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:44,757 - __main__ - ERROR - login_method_fallback_coordinates:525 - Error in fallback login method: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:44,758 - __main__ - WARNING - login_to_cabas:565 - Method 2 failed to execute
+2025-09-01 17:54:44,759 - __main__ - ERROR - login_to_cabas:571 - All login methods failed for attempt 1
+2025-09-01 17:54:44,905 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_failed_attempt_1.png
+2025-09-01 17:54:44,906 - __main__ - INFO - login_to_cabas:576 - Retrying login (attempt 2/3)
+2025-09-01 17:54:47,907 - __main__ - INFO - login_to_cabas:533 - Starting CABAS login process
+2025-09-01 17:54:48,051 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_start_attempt_2.png
+2025-09-01 17:54:48,052 - __main__ - INFO - login_to_cabas:551 - Trying login method 1/2
+2025-09-01 17:54:48,052 - __main__ - INFO - login_method_enhanced_detection:412 - Attempting enhanced login detection method
+2025-09-01 17:54:48,052 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:51,161 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 17:54:51,162 - __main__ - ERROR - find_login_fields:404 - Error finding login fields: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:51,163 - __main__ - WARNING - login_method_enhanced_detection:456 - Could not locate login fields
+2025-09-01 17:54:51,163 - __main__ - WARNING - login_to_cabas:565 - Method 1 failed to execute
+2025-09-01 17:54:51,163 - __main__ - INFO - login_to_cabas:551 - Trying login method 2/2
+2025-09-01 17:54:51,163 - __main__ - INFO - login_method_fallback_coordinates:468 - Attempting fallback coordinate-based login
+2025-09-01 17:54:51,164 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:54,164 - __main__ - ERROR - login_method_fallback_coordinates:525 - Error in fallback login method: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:54:54,164 - __main__ - WARNING - login_to_cabas:565 - Method 2 failed to execute
+2025-09-01 17:54:54,164 - __main__ - ERROR - login_to_cabas:571 - All login methods failed for attempt 2
+2025-09-01 17:54:54,282 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_failed_attempt_2.png
+2025-09-01 17:54:54,283 - __main__ - INFO - login_to_cabas:576 - Retrying login (attempt 3/3)
+2025-09-01 17:54:57,284 - __main__ - INFO - login_to_cabas:533 - Starting CABAS login process
+2025-09-01 17:54:57,456 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_start_attempt_3.png
+2025-09-01 17:54:57,457 - __main__ - INFO - login_to_cabas:551 - Trying login method 1/2
+2025-09-01 17:54:57,458 - __main__ - INFO - login_method_enhanced_detection:412 - Attempting enhanced login detection method
+2025-09-01 17:54:57,458 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:55:00,569 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 17:55:00,570 - __main__ - ERROR - find_login_fields:404 - Error finding login fields: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:55:00,571 - __main__ - WARNING - login_method_enhanced_detection:456 - Could not locate login fields
+2025-09-01 17:55:00,571 - __main__ - WARNING - login_to_cabas:565 - Method 1 failed to execute
+2025-09-01 17:55:00,571 - __main__ - INFO - login_to_cabas:551 - Trying login method 2/2
+2025-09-01 17:55:00,571 - __main__ - INFO - login_method_fallback_coordinates:468 - Attempting fallback coordinate-based login
+2025-09-01 17:55:00,571 - __main__ - ERROR - setup_window:220 - Error setting up window: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:55:03,571 - __main__ - ERROR - login_method_fallback_coordinates:525 - Error in fallback login method: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:55:03,571 - __main__ - WARNING - login_to_cabas:565 - Method 2 failed to execute
+2025-09-01 17:55:03,571 - __main__ - ERROR - login_to_cabas:571 - All login methods failed for attempt 3
+2025-09-01 17:55:03,696 - __main__ - DEBUG - take_screenshot:235 - Screenshot saved: screenshots\login_failed_attempt_3.png
+2025-09-01 17:55:03,697 - __main__ - INFO - close_cabas:662 - Closing CABAS application
+2025-09-01 17:55:03,697 - __main__ - WARNING - close_cabas:670 - Could not close window normally: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:55:05,153 - __main__ - INFO - close_cabas:695 - CABAS application closed

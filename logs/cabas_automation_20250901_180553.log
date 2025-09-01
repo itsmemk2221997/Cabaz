@@ -1,0 +1,26 @@
+2025-09-01 18:05:53,445 - __main__ - INFO - __init__:66 - Enhanced CABAS automation initialized
+2025-09-01 18:05:53,802 - __main__ - INFO - launch_cabas:142 - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 18:05:55,273 - __main__ - INFO - launch_cabas:150 - CABAS process started successfully
+2025-09-01 18:05:55,273 - __main__ - INFO - find_and_setup_cabas_window:164 - Searching for CABAS window...
+2025-09-01 18:05:55,275 - __main__ - INFO - window_found:174 - Found CABAS window: 'CAB Service Platform setup' at 78,78 size 535x301
+2025-09-01 18:05:57,340 - __main__ - WARNING - setup_window:269 - Could not bring window to front: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 18:05:57,340 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:05:57,340 - __main__ - INFO - login_to_cabas:679 - Starting CABAS login process
+2025-09-01 18:05:57,462 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_start.png
+2025-09-01 18:05:57,463 - __main__ - INFO - login_method_enhanced_detection:472 - Attempting enhanced login detection method
+2025-09-01 18:05:57,559 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 18:05:59,062 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:06:02,347 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'username': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,399 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'user': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,451 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'email': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,507 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'login': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,571 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'användarnamn': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,629 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'password': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,685 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'pass': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,743 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'lösenord': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:06:02,744 - __main__ - DEBUG - find_login_fields:460 - Found login fields: {'username': (960, 480), 'password': (960, 520)}
+2025-09-01 18:06:02,745 - __main__ - DEBUG - smart_click:362 - Clicking at (960, 480)
+2025-09-01 18:06:15,756 - __main__ - DEBUG - smart_type:397 - Typed text: muhammadfa...
+2025-09-01 18:06:16,757 - __main__ - DEBUG - smart_click:362 - Clicking at (960, 520)
+2025-09-01 18:06:21,640 - __main__ - ERROR - smart_type:400 - Error typing text: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2025-09-01 18:06:25,856 - __main__ - INFO - close_cabas:794 - Closing CABAS application

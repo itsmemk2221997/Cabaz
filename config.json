@@ -1,0 +1,93 @@
+{
+  "cabas": {
+    "exe_path": "C:\\Users\\Admin\\AppData\\Local\\CAB Group AB\\CAB Service Platform\\Application\\CAB.Client.Shell.exe",
+    "username": "muhammadfaizan@teksyo.com",
+    "password": "Cabas123!!",
+    "login_url": "https://login.cabgroup.net/",
+    "window_titles": ["CABAS", "CAB", "CSP", "CabgroupCSP"],
+    "timeout_seconds": 30,
+    "screenshot_path": "screenshots"
+  },
+  "workshops": {
+    "bil_goteborg": {
+      "name": "Bil+ Göteborg AB",
+      "cabas_instance": "goteborg",
+      "ppg_facility_url": "",
+      "preferred_suppliers": ["supplier1", "supplier2"],
+      "notification_channel": "teams_channel_1"
+    },
+    "workshop_2": {
+      "name": "Workshop 2",
+      "cabas_instance": "workshop2",
+      "ppg_facility_url": "",
+      "preferred_suppliers": ["supplier3", "supplier4"],
+      "notification_channel": "teams_channel_2"
+    },
+    "workshop_3": {
+      "name": "Workshop 3",
+      "cabas_instance": "workshop3",
+      "ppg_facility_url": "",
+      "preferred_suppliers": ["supplier5", "supplier6"],
+      "notification_channel": "teams_channel_3"
+    },
+    "workshop_4": {
+      "name": "Workshop 4",
+      "cabas_instance": "workshop4",
+      "ppg_facility_url": "",
+      "preferred_suppliers": ["supplier7", "supplier8"],
+      "notification_channel": "teams_channel_4"
+    },
+    "workshop_5": {
+      "name": "Workshop 5",
+      "cabas_instance": "workshop5",
+      "ppg_facility_url": "",
+      "preferred_suppliers": ["supplier9", "supplier10"],
+      "notification_channel": "teams_channel_5"
+    }
+  },
+  "pm_system": {
+    "username": "muhammadfaizan@teksyo.com",
+    "password": "Faizan123",
+    "base_url": "",
+    "api_endpoints": {
+      "work_files": "/api/work-files",
+      "order_status": "/api/order-status",
+      "production_workflow": "/api/production-workflow"
+    }
+  },
+  "excel_monitoring": {
+    "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1Lg7ao8jO-nZ-tzftLpPolu7x8purHyTHHZRCqtA1xSU/edit?gid=0#gid=0",
+    "local_copy_url": "https://docs.google.com/spreadsheets/d/1UDBYbjb4I8ygYG5_Ete1mmv5K329WYZ42QMoy0GcpOA/edit?usp=sharing",
+    "check_interval_minutes": 5,
+    "status_columns": {
+      "search_1": "Beggsök 1",
+      "search_2": "Beggsök 2",
+      "search_3": "Beggsök 3",
+      "search_4": "Beggsök 4"
+    }
+  },
+  "supplier_automation": {
+    "search_interval_minutes": 12,
+    "max_search_tiers": 4,
+    "response_timeout_minutes": 15,
+    "conditional_logic": {
+      "stop_on_full_fulfillment": true,
+      "proceed_to_next_tier": true
+    }
+  },
+  "teams_integration": {
+    "webhook_url": "",
+    "notification_types": {
+      "damaged_parts": true,
+      "approval_required": true,
+      "order_status": true,
+      "system_errors": true
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "logs/automation.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  }
+}

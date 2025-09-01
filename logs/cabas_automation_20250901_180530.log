@@ -1,0 +1,11 @@
+2025-09-01 18:05:30,336 - __main__ - INFO - __init__:66 - Enhanced CABAS automation initialized
+2025-09-01 18:05:30,667 - __main__ - INFO - launch_cabas:140 - CABAS is already running
+2025-09-01 18:05:30,667 - __main__ - INFO - find_and_setup_cabas_window:164 - Searching for CABAS window...
+2025-09-01 18:05:30,668 - __main__ - INFO - window_found:174 - Found CABAS window: 'cabas_automation_desktop.py - cabazz - Trae' at -8,-8 size 1936x1096
+2025-09-01 18:05:32,170 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:05:32,171 - __main__ - INFO - login_to_cabas:679 - Starting CABAS login process
+2025-09-01 18:05:32,288 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_start.png
+2025-09-01 18:05:32,289 - __main__ - INFO - login_method_enhanced_detection:472 - Attempting enhanced login detection method
+2025-09-01 18:05:32,398 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 18:05:33,900 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:05:35,349 - __main__ - INFO - close_cabas:794 - Closing CABAS application

@@ -1,0 +1,120 @@
+2025-09-01 17:33:19,737 - config_manager - INFO - Required directories created
+2025-09-01 17:33:19,738 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:33:28,020 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:33:28,512 - cabas_automation - ERROR - CABAS executable not found at: C:\Program Files\CabgroupCSP\CabgroupCSP.exe
+2025-09-01 17:33:28,512 - __main__ - ERROR - Failed to launch CABAS application
+2025-09-01 17:33:28,512 - cabas_automation - INFO - CABAS application closed
+2025-09-01 17:33:28,513 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:36:36,706 - config_manager - INFO - Required directories created
+2025-09-01 17:36:36,707 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:36:53,773 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:36:54,162 - cabas_automation - ERROR - CABAS executable not found at: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CABServicePlatform.exe
+2025-09-01 17:36:54,163 - __main__ - ERROR - Failed to launch CABAS application
+2025-09-01 17:36:54,163 - cabas_automation - INFO - CABAS application closed
+2025-09-01 17:36:54,163 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:38:02,959 - config_manager - INFO - Required directories created
+2025-09-01 17:38:02,959 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:38:12,652 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:38:13,168 - cabas_automation - INFO - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:38:18,173 - cabas_automation - INFO - Found CABAS window: CAB Service Platform setup
+2025-09-01 17:38:18,174 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:38:22,255 - cabas_automation - INFO - Username entered
+2025-09-01 17:38:25,261 - cabas_automation - INFO - Password entered
+2025-09-01 17:38:34,262 - cabas_automation - INFO - Current window title after login: 
+2025-09-01 17:38:34,262 - cabas_automation - INFO - Login appears successful
+2025-09-01 17:38:34,262 - __main__ - INFO - CABAS login successful
+2025-09-01 17:38:34,426 - cabas_automation - INFO - Screenshot saved: test_login_success.png
+2025-09-01 17:38:34,426 - __main__ - INFO - Screenshot saved: test_login_success.png
+2025-09-01 17:38:34,427 - cabas_automation - ERROR - Error closing CABAS: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 17:38:34,427 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:42:23,538 - config_manager - INFO - Required directories created
+2025-09-01 17:42:23,539 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:42:26,447 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:42:27,164 - cabas_automation_enhanced - INFO - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:42:35,171 - cabas_automation_enhanced - INFO - Found CABAS window: Login
+2025-09-01 17:42:35,173 - cabas_automation_enhanced - WARNING - Could not maximize window: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:42:35,173 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:42:35,174 - cabas_automation_enhanced - INFO - Starting CABAS login process
+2025-09-01 17:42:35,302 - cabas_automation_enhanced - INFO - Screenshot saved: login_start.png
+2025-09-01 17:42:35,303 - cabas_automation_enhanced - INFO - Attempting login method 1: Basic GUI automation
+2025-09-01 17:42:35,304 - cabas_automation_enhanced - ERROR - Error in login method 1: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:42:35,304 - cabas_automation_enhanced - INFO - Attempting login method 2: Image recognition
+2025-09-01 17:42:36,814 - cabas_automation_enhanced - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:42:36,859 - cabas_automation_enhanced - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:42:36,907 - cabas_automation_enhanced - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:42:36,959 - cabas_automation_enhanced - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:42:36,961 - cabas_automation_enhanced - INFO - Attempting login method 3: Web automation
+2025-09-01 17:43:11,590 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221D76C8F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da78de8ff396736c76d798ad08cb59ea
+2025-09-01 17:43:15,643 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221D76C9550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da78de8ff396736c76d798ad08cb59ea
+2025-09-01 17:43:19,721 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221D76C9D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da78de8ff396736c76d798ad08cb59ea
+2025-09-01 17:43:27,925 - cabas_automation_enhanced - ERROR - All login methods failed
+2025-09-01 17:43:28,055 - cabas_automation_enhanced - INFO - Screenshot saved: login_failed.png
+2025-09-01 17:43:28,056 - __main__ - ERROR - Failed to login to CABAS
+2025-09-01 17:45:41,216 - config_manager - INFO - Required directories created
+2025-09-01 17:45:41,217 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:45:43,284 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:45:43,297 - cabas_automation_desktop - INFO - CABAS already running with PID: 256
+2025-09-01 17:45:43,297 - cabas_automation_desktop - INFO - CABAS is already running
+2025-09-01 17:45:43,299 - cabas_automation_desktop - INFO - Found CABAS window: main.py - cabazz - Trae
+2025-09-01 17:45:45,300 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:45:45,300 - cabas_automation_desktop - INFO - Starting CABAS desktop login process
+2025-09-01 17:45:45,440 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_start.png
+2025-09-01 17:45:45,441 - cabas_automation_desktop - INFO - Attempting login method 1: Basic GUI automation
+2025-09-01 17:46:02,989 - cabas_automation_desktop - INFO - CABAS window closed
+2025-09-01 17:46:02,990 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:46:34,328 - config_manager - INFO - Required directories created
+2025-09-01 17:46:34,329 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:46:35,453 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:46:35,874 - cabas_automation_desktop - INFO - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:46:40,881 - cabas_automation_desktop - INFO - Found CABAS window: main.py - cabazz - Trae
+2025-09-01 17:46:40,881 - cabas_automation_desktop - WARNING - Could not maximize window: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:46:40,881 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:46:40,881 - cabas_automation_desktop - INFO - Starting CABAS desktop login process
+2025-09-01 17:46:41,021 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_start.png
+2025-09-01 17:46:41,021 - cabas_automation_desktop - INFO - Attempting login method 1: Basic GUI automation
+2025-09-01 17:46:41,022 - cabas_automation_desktop - ERROR - Error in login method 1: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:46:41,022 - cabas_automation_desktop - INFO - Attempting login method 2: Image recognition
+2025-09-01 17:46:41,193 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_analysis.png
+2025-09-01 17:46:41,577 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:46:41,643 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:46:41,706 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:46:43,210 - cabas_automation_desktop - ERROR - All desktop login methods failed
+2025-09-01 17:46:43,327 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_failed.png
+2025-09-01 17:46:43,329 - __main__ - ERROR - Failed to login to CABAS
+2025-09-01 17:46:43,329 - cabas_automation_desktop - INFO - CABAS window closed
+2025-09-01 17:46:43,329 - cabas_automation_desktop - INFO - CABAS process terminated
+2025-09-01 17:46:43,329 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:48:27,431 - config_manager - INFO - Required directories created
+2025-09-01 17:48:27,432 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:48:29,637 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:48:30,002 - cabas_automation_desktop - INFO - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:48:35,007 - cabas_automation_desktop - INFO - Found CABAS window: README.md - cabazz - Trae
+2025-09-01 17:48:35,007 - cabas_automation_desktop - WARNING - Could not maximize window: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:48:35,007 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:48:35,008 - cabas_automation_desktop - INFO - Starting CABAS desktop login process
+2025-09-01 17:48:35,149 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_start.png
+2025-09-01 17:48:35,150 - cabas_automation_desktop - INFO - Attempting login method 1: Basic GUI automation
+2025-09-01 17:48:35,151 - cabas_automation_desktop - ERROR - Error in login method 1: Error code from Windows: 0 - The operation completed successfully.
+2025-09-01 17:48:35,151 - cabas_automation_desktop - INFO - Attempting login method 2: Image recognition
+2025-09-01 17:48:35,276 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_analysis.png
+2025-09-01 17:48:35,612 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:48:35,654 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:48:35,706 - cabas_automation_desktop - ERROR - Error finding text on screen: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 17:48:37,209 - cabas_automation_desktop - ERROR - All desktop login methods failed
+2025-09-01 17:48:37,311 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_failed.png
+2025-09-01 17:48:37,311 - __main__ - ERROR - Failed to login to CABAS
+2025-09-01 17:48:37,311 - cabas_automation_desktop - INFO - CABAS window closed
+2025-09-01 17:48:37,311 - cabas_automation_desktop - INFO - CABAS process terminated
+2025-09-01 17:48:37,311 - __main__ - INFO - CABAS automation cleaned up
+2025-09-01 17:49:07,934 - config_manager - INFO - Required directories created
+2025-09-01 17:49:07,935 - __main__ - INFO - CABAS automation initialized successfully
+2025-09-01 17:49:09,012 - __main__ - INFO - Starting CABAS connection test...
+2025-09-01 17:49:09,432 - cabas_automation_desktop - INFO - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 17:49:14,437 - cabas_automation_desktop - INFO - Found CABAS window: README.md - cabazz - Trae
+2025-09-01 17:49:16,439 - __main__ - INFO - CABAS application launched successfully
+2025-09-01 17:49:16,439 - cabas_automation_desktop - INFO - Starting CABAS desktop login process
+2025-09-01 17:49:16,565 - cabas_automation_desktop - INFO - Screenshot saved: screenshots\login_start.png
+2025-09-01 17:49:16,566 - cabas_automation_desktop - INFO - Attempting login method 1: Basic GUI automation
+2025-09-01 17:49:20,063 - cabas_automation_desktop - INFO - CABAS window closed
+2025-09-01 17:49:20,063 - cabas_automation_desktop - INFO - CABAS process terminated
+2025-09-01 17:49:20,064 - __main__ - INFO - CABAS automation cleaned up

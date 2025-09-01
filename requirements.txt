@@ -1,0 +1,31 @@
+# CABAS Automation System Dependencies
+# Core automation libraries
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+psutil>=5.9.0
+
+# Windows-specific libraries
+pywin32>=306
+
+# Image processing and computer vision
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR for text recognition
+pytesseract>=0.3.10
+
+# Excel and data processing
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Web automation (if needed for future features)
+selenium>=4.15.0
+requests>=2.31.0
+
+# Configuration and logging
+configparser>=5.3.0
+
+# Additional utilities
+keyboard>=0.13.5
+mouse>=0.7.1

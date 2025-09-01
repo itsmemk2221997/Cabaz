@@ -1,0 +1,25 @@
+2025-09-01 18:12:08,071 - __main__ - INFO - __init__:66 - Enhanced CABAS automation initialized
+2025-09-01 18:12:08,464 - __main__ - INFO - launch_cabas:142 - Launching CABAS from: C:\Users\Admin\AppData\Local\CAB Group AB\CAB Service Platform\Application\CAB.Client.Shell.exe
+2025-09-01 18:12:10,031 - __main__ - INFO - launch_cabas:150 - CABAS process started successfully
+2025-09-01 18:12:10,031 - __main__ - INFO - find_and_setup_cabas_window:164 - Searching for CABAS window...
+2025-09-01 18:12:10,032 - __main__ - INFO - window_found:174 - Found CABAS window: 'CAB Service Platform setup' at 104,104 size 535x301
+2025-09-01 18:12:12,033 - __main__ - WARNING - setup_window:269 - Could not bring window to front: Error code from Windows: 1400 - Invalid window handle.
+2025-09-01 18:12:12,033 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:12:12,033 - __main__ - INFO - login_to_cabas:684 - Starting CABAS login process
+2025-09-01 18:12:12,137 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_start.png
+2025-09-01 18:12:12,138 - __main__ - INFO - login_method_enhanced_detection:472 - Attempting enhanced login detection method
+2025-09-01 18:12:12,229 - __main__ - DEBUG - take_screenshot:290 - Screenshot saved: screenshots\login_attempt_start.png
+2025-09-01 18:12:13,733 - __main__ - INFO - setup_window:271 - Window setup completed
+2025-09-01 18:12:17,034 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'username': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,079 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'user': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,128 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'email': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,177 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'login': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,229 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'användarnamn': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,279 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'password': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,330 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'pass': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,376 - __main__ - DEBUG - find_text_on_screen:349 - OCR text search failed for 'lösenord': tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-09-01 18:12:17,377 - __main__ - DEBUG - find_login_fields:460 - Found login fields: {'username': (960, 480), 'password': (960, 520)}
+2025-09-01 18:12:17,377 - __main__ - DEBUG - smart_click:362 - Clicking at (960, 480)
+2025-09-01 18:12:30,383 - __main__ - DEBUG - smart_type:397 - Typed text: muhammadfa...
+2025-09-01 18:12:31,384 - __main__ - DEBUG - smart_click:362 - Clicking at (960, 520)
+2025-09-01 18:12:34,416 - __main__ - INFO - close_cabas:799 - Closing CABAS application
